@@ -364,7 +364,7 @@ fieldset {
 
 /*
  * 1. Corrects color not being inherited in IE6/7/8/9
- * 2. Corrects text not wrapping in FF3 
+ * 2. Corrects text not wrapping in FF3
  * 3. Corrects alignment displayed oddly in IE6/7
  */
 legend {
@@ -756,6 +756,17 @@ header p {
   font-size: 14px;
   background-color: #FFE788;
 }
+#banner .fork {
+  position: fixed;
+  left: 50%;
+  margin-left: -225px;
+  padding: 10px 12px;
+  margin-top: 6px;
+  line-height: 14px;
+  font-size: 14px;
+  background-color: #FFE788;
+}
+
 #banner .downloads {
   float: right;
   margin: 0 45px 0 0;
