@@ -1,0 +1,11 @@
+# Site settings
+title: Personal home page
+email: hes1990@gmail.com
+description: "Personal site of Henrik Egemose Schmidt containing contributions to open source software and scientific publications."
+baseurl: "/"
+url: "http://henrikegemose.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+auto: true
