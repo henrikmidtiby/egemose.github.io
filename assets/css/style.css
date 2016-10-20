@@ -113,6 +113,12 @@ section {
   right: 0px;
 }
 
+@media (min-width: 768px) {
+  #topimage {
+    display: none;
+  }
+}
+
 /*=======================================
     NAVIGATION STYLES
 ==================================================*/
