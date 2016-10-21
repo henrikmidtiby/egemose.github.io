@@ -28,12 +28,22 @@ body {
     padding-right:100px;
 }
 
+@media (min-width: 768px) {
+  .navbar-nav {
+    padding-left: 105px;
+  }
+}
+
 .text-center {
     text-align:center;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family:'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+  color:#303030;
 }
 
 h1 {
@@ -70,7 +80,7 @@ p {
 
 
 section {
-    padding-top:50px;
+    padding-top:30px;
     padding-bottom:30px;
 }
 
@@ -85,7 +95,7 @@ section {
 }
 
 .color-light {
-   background-color:#E9E9E9!important;
+   /*background-color:#E9E9E9!important;*/
    background-color:#f5f2e3!important;
 }
 
@@ -119,10 +129,15 @@ section {
   }
 }
 
+@media (min-width: 768px) {
+  #logo {
+    display: none;
+  }
+}
+
 /*=======================================
     NAVIGATION STYLES
 ==================================================*/
-
 
 nav {
 	position: absolute;
@@ -144,15 +159,14 @@ min-height: 80px;
 padding-top: 10px;
 font-size: 18px;
 }
-.navbar-brand {
 
+.navbar-brand {
 font-size: 30px;
 }
 
 /*=======================================
     WORK FLOW STYLES
 ==================================================*/
-
 
 .work-div {
 	width: 100%;
