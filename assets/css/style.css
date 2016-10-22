@@ -115,7 +115,7 @@ section {
 
 @media (max-width: 768px) {
   .head-main {
-    padding:50px 20px 10px 20px;
+    padding:30px 20px 10px 20px;
   }
 }
 
@@ -128,7 +128,7 @@ section {
 
 @media (max-width: 768px) {
   .head-sub-main {
-    padding:5px 20px 50px 20px;
+    padding:5px 20px 30px 20px;
   }
 }
 
