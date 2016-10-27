@@ -39,10 +39,13 @@
                 NAV SCRIPTS
             ======================================*/
             $(window).bind('scroll', function () {
-                var navHeight = $(window).height() - 288;
-                if ($(window).scrollTop() > navHeight) {
-                    $('nav').addClass('fixed');
+                /*var navHeight = $(window).height() - 50;*/
+                if ($(window).scrollTop() > 485) {
+                  $('nav').addClass('fixed');
                 }
+                /*if ($(window).scrollTop() > navHeight) {
+                    $('nav').addClass('fixed');
+                }*/
                 else {
                     $('nav').removeClass('fixed');
                 }
