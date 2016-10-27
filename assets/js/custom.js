@@ -6,7 +6,7 @@
 
     100% To use For Personal And Commercial Use.
     IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
-   
+
     ========================================================  */
 
 
@@ -16,7 +16,7 @@
 
         main_fun: function () {
             /*====================================
-             CUSTOM LINKS SCROLLING FUNCTION 
+             CUSTOM LINKS SCROLLING FUNCTION
             ======================================*/
 
             $('nav a[href*=#]').click(function () {
@@ -26,20 +26,20 @@
                     $target = $target.length && $target
                     || $('[name=' + this.hash.slice(1) + ']');
                     if ($target.length) {
-                        var targetOffset = $target.offset().top;
+                        var targetOffset = $target.offset().top - 50;
                         $('html,body')
                         .animate({ scrollTop: targetOffset }, 800); //set scroll speed here
                         return false;
                     }
                 }
             });
-         
+
 
             /*====================================
                 NAV SCRIPTS
             ======================================*/
             $(window).bind('scroll', function () {
-                var navHeight = $(window).height() -50;
+                var navHeight = $(window).height() - 288;
                 if ($(window).scrollTop() > navHeight) {
                     $('nav').addClass('fixed');
                 }
@@ -49,9 +49,9 @@
             });
 
             /*====================================
-               WRITE YOUR SCRIPTS BELOW 
+               WRITE YOUR SCRIPTS BELOW
            ======================================*/
-          
+
         },
 
         initialization: function () {
@@ -67,6 +67,3 @@
     });
 
 }(jQuery));
-
-
-
